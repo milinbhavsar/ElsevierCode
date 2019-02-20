@@ -1,0 +1,32 @@
+/* You can add global styles to this file, and also import other style files */
+
+.condition-data-container table thead th, .condition-data-container table tbody td{
+    border:none;
+}
+.condition-data-container table{
+    border-top:1px solid #000;
+}
+.condition-data-container table th{
+    cursor: pointer;
+}
+.arrow{
+    width:15px;
+}
+.spinner .spinner-background{
+    position: fixed;
+    left:0;
+    top:0;
+    bottom:0;
+    right:0;
+    background-color: rgba(0,0,0,0.75);
+}
+
+.spinner img{
+    width:60px;
+    position: fixed;
+    left:50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+ }
+
+ 
